@@ -1,13 +1,58 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ background-color: rgb(56, 46, 52);
+ padding: 20px;
+ margin: 0;
+}
+h1,h2,p,ul,li{
+  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul.header li{
+  display: inline;
+  list-style-type: none;
+  margin-left: 1rem;
+  font-size: 20px;
+}
+
+ul.header{
+  background-color: rgb(121, 27, 92);
+  padding: 0;
+}
+ul.header li a{
+  color: blanchedalmond;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 25px;
+  display: inline;
+}
+
+ul.header li a:hover{
+  color: rgb(245, 164, 248);
+  font-size:  25px;
+}
+.content{
+  background-color: transparent;
+  padding: 20px;
+  height:auto;
+  color:rgb(121, 27, 92)
+}
+.content{
+  padding: 0;
+  margin:0;
+}
+.content li{
+  margin-bottom: 10px;
+}
+
+.logo{
+  color: rgb(121, 27, 92) ;
+  font-size:2rem ;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0 0 18px 0;
+}
+
+.logo:hover{
+  color: rgb(245, 164, 248);
+  text-decoration: none;
 }
